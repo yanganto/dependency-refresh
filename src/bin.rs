@@ -8,7 +8,7 @@ use structopt::StructOpt;
 #[derive(StructOpt)]
 #[structopt(
     name = "dependency-refresh",
-    about = "A rust dependency version updater."
+    about = "A rust dependency version updater. (yanganto@github customized)"
 )]
 struct Opt {
     #[structopt(required = true, min_values = 1)]
