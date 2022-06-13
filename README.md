@@ -1,4 +1,6 @@
-# dependency-refresh
+# dependency-refresh (yanganto customized)
+
+This is based on `RoffelKartoffel/dependency-refresh`, and merge the PR that RoffelKartoffel ignored.
 
 dependency-refresh is meant to update rust dependency versions within Cargo.toml files.
 
