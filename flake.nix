@@ -20,7 +20,7 @@
         packages.${system}.dr = pkgs.rustPlatform.buildRustPackage {
           name = "dr";
           src = self;
-          cargoSha256 = "sha256-FxqTp0P3TEkOvlinGK6u3sZ+GksIwLVaenly9nMJEUM=";
+          cargoSha256 = "sha256-aQdBMPknijh1QtO0EVyUfHU3WnqccxwJKQU5epz5la4=";
 
           # Currently, all check in dr using network
           doCheck = false;
