@@ -1,7 +1,7 @@
 {
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
     rust-overlay.url = "github:oxalica/rust-overlay";
     flake-utils.url = "github:numtide/flake-utils";
   };
@@ -20,7 +20,7 @@
         packages.${system}.dr = pkgs.rustPlatform.buildRustPackage {
           name = "dr";
           src = self;
-          cargoSha256 = "sha256-aQdBMPknijh1QtO0EVyUfHU3WnqccxwJKQU5epz5la4=";
+          cargoHash = "sha256-Z1ZihnsERzboc1WcHoeB2k6rZRXrhGTHpDIESyScMnk=";
 
           # Currently, all check in dr using network
           doCheck = false;
